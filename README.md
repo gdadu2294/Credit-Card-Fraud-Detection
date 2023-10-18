@@ -33,9 +33,8 @@ This section provides a detailed description of the dataset used for the researc
 
 To get started with this research, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/gdadu2294/credit-card-fraud-detection.git`
-2. Install the required libraries: `pip install -r requirements.txt`
-3. Explore the Jupyter notebooks for data preprocessing, model development, and performance evaluation.
+1. Install the required libraries: `pip install -r requirements.txt`
+2. Explore the Jupyter notebooks for data preprocessing, model development, and performance evaluation.
 
 ## Data Preprocessing
 
