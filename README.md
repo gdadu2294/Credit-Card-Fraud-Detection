@@ -1,58 +1,40 @@
-# Credit Card Fraud Detection Research
+# Credit Card Fraud Detection Research Project
 
-## Table of Contents
+## Overview
+This GitHub repository contains the code, resources, and findings for the research on Credit Card Fraud Detection. The primary goal of this research is to compare and evaluate three distinct machine learning models—Random Forest, Decision Tree, and Logistic Regression—for the purpose of accurate credit card fraud detection. The repository aims to delve into feature importance, feature engineering, and the relationship between different transaction types and their correlation with fraudulent activities.
 
-- [About](#about)
-- [Abstract](#abstract)
-- [Literature Review](#literature-review)
-- [Descriptive Statistics of the Dataset](#descriptive-statistics-of-the-dataset)
-- [Getting Started](#getting-started)
-- [Data Preprocessing](#data-preprocessing)
-- [Model Development](#model-development)
-- [Performance Evaluation](#performance-evaluation)
-- [Results](#results)
-- [Contributing](#contributing) 
+## Repository Contents
+- `Literature_Review.pdf`: The comprehensive review of previous studies and methodologies in credit card fraud detection.
+- `Initial_Results_and_Code.ipynb`: Initial results and code detailing the models' development and performance evaluation.
+- `Initial_Results_and_Code.pdf`: Supplementary document accompanying the initial results and code for reference.
+- `Initial_Dataset_Visualization.ipynb`: Initial visualizations providing insights into the dataset's structure.
 
-## About
+## Research Methodology
+This research project involves several stages that guide the overall workflow:
 
-This GitHub repository contains the code and resources for my research on Credit Card Fraud Detection. The primary goal of this research is to compare and evaluate three distinct machine learning models - Random Forest, Decision Tree, and Logistic Regression - for the purpose of accurate credit card fraud detection. It also explores feature importance, feature engineering, and the relationship between different transaction types and their correlation with fraudulent activities.
-
-## Abstract
-
-Credit Card Fraud Detection is a critical concern within the financial sector, demanding advanced techniques for precise identification and prevention. This research paper delves into the realm of Big Data and Predictive Analysis, aiming to develop and compare three distinct machine learning models for the purpose of accurate credit card fraud detection. The paper systematically evaluates the three models to determine their respective performance levels in credit card fraud detection.
-
-## Literature Review
-
-The Literature Review section provides a comprehensive overview of previous studies in the field of credit card fraud detection. It summarizes existing research, highlights the challenges, and discusses the methodologies and advancements made in the domain.
-
-## Descriptive Statistics of the Dataset
-
-This section provides a detailed description of the dataset used for the research. It explains the dataset's structure, variable descriptions, and visualizations to better understand the data.
+1. **Research Goals & Objectives**: Define the purpose and objectives of the research project.
+2. **Data Collection**: Gather, clean, and ensure the integrity of the dataset.
+3. **Initial Analysis**: Review and prepare the collected data for further analysis.
+4. **Exploratory Analysis**: Conduct detailed analysis to understand patterns and relationships within the data.
+5. **Dimensionality Reduction**: Reduce data complexity without specifically referencing PCA.
+6. **Experimental Design**: Create a structured plan for conducting experiments in line with research objectives.
+7. **Modeling**: Implement and assess the performance of distinct machine learning models.
+8. **Evaluation**: Assess model performance against predefined criteria.
+9. **Improving the Model**: Refine models based on evaluation results to improve accuracy and efficiency.
+10. **Conclusions**: Summarize findings, draw conclusions, and propose future research directions.
 
 ## Getting Started
+To explore and contribute to this research:
 
-To get started with this research, follow these steps:
+1. Install the required libraries using `pip install -r requirements.txt`.
+2. Explore Jupyter notebooks for data preprocessing, model development, and performance evaluation.
 
-1. Install the required libraries: `pip install -r requirements.txt`
-2. Explore the Jupyter notebooks for data preprocessing, model development, and performance evaluation.
-
-## Data Preprocessing
-
-In this section, you can find information on data preprocessing techniques used to clean and prepare the dataset for model development. This includes handling missing values, addressing class imbalance, and feature engineering.
-
-## Model Development
-
-Learn about the machine learning models used in this research - Random Forest, Decision Tree, and Logistic Regression. This section provides code and explanations for model training and tuning.
-
-## Performance Evaluation
-
-Understand the metrics and methodologies used for evaluating the performance of the machine learning models. This includes Confusion Matrix and F1 Score for assessing the effectiveness of the models in detecting fraudulent transactions.
-
-## Results
-
-The Results section discusses the findings of this research and provides insights into which machine learning model outperforms the others in predicting credit card fraud. It also highlights the importance of feature engineering and transaction types in fraud detection.
+## Dataset Information
+The dataset used in this research is downloaded from Kaggle. If anyone wishes to access it, they can download it from the Kaggle platform. 
+Kaggle Dataset:
+https://www.kaggle.com/datasets/rupakroy/online-payments-fraud-detection-dataset
 
 ## Contributing
+Contributions to this research project are welcome. You can open issues or submit pull requests to enhance the methodology and code.
 
-If you'd like to contribute to this research, feel free to open an issue or submit a pull request. Your contributions are valuable in improving the research methodology and code.
-
+Feel free to explore the provided resources and contribute to the research. Your participation and insights are valued in advancing this project's goals.
